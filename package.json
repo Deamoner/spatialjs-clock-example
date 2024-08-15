@@ -1,0 +1,33 @@
+{
+  "name": "spatialjs-clock-example",
+  "version": "1.0.0",
+  "description": "Example Clock App SpatialJS, UIKit, R3f/XR, R3f",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  },
+  "keywords": [
+    "SpatialJS",
+    "UIKit",
+    "R3f/XR",
+    "R3f"
+  ],
+  "author": "Matthew Davis",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@react-three/drei": "^9.109.5",
+    "@react-three/fiber": "^8.17.5",
+    "@react-three/uikit": "^0.4.1",
+    "@react-three/uikit-apfel": "^0.4.4",
+    "@react-three/uikit-lucide": "^0.4.1",
+    "@react-three/xr": "^6.1.1",
+    "@spatialjs/core": "^0.0.2",
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
